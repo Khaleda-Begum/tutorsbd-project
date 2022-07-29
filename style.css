@@ -1,3 +1,26 @@
 /* media query tab device */
 
-@media screen and(min-width:768px) and(max-width:991px) {}
+@media screen and(min-width:768px) and(max-width:991px) {
+     #company-section {
+          visibility: hidden;
+     }
+}
+
+@media screen and (max-width:767px) {
+
+
+     .carousel-item {
+
+          height: 80vh;
+
+
+     }
+
+     .carousel-caption {
+          bottom: 180px;
+          padding-left: 100px;
+          padding-right: 100px;
+          text-align: center;
+
+     }
+}
